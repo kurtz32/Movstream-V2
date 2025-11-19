@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Show Details - Movstream V2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="index.html" style="color: #e50914; text-decoration: none;">Movstream V2</a></h1>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for movies...">
+            <button id="search-btn">Search</button>
+        </div>
+    </header>
+    <main>
+        <div id="movie-details">
+            <!-- TV details will be loaded here -->
+            <button id="play-trailer-btn" class="play-btn">▶ Play</button>
+        </div>
+        <div class="movie-trailer-section">
+            <h2>Trailer</h2>
+            <div id="movie-trailer">
+                <!-- Trailer will be loaded here -->
+            </div>
+        </div>
+        <div class="movie-cast-section">
+            <h2>Cast</h2>
+            <div id="movie-cast" class="cast-grid">
+                <!-- Cast will be loaded here -->
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Movstream V2. Powered by TMDB API.</p>
+    </footer>
+    <script src="tv.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movstream V2 - Movie Streaming</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Movstream V2</h1>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for movies...">
+            <button id="search-btn">Search</button>
+        </div>
+    </header>
+    <div class="category-container">
+        <button class="category-btn active" data-category="movie">Movies</button>
+        <button class="category-btn" data-category="tv">TV Shows</button>
+    </div>
+    <div class="genres-container">
+        <button class="genre-btn active" data-genre="popular">Popular</button>
+        <button class="genre-btn" data-genre="Horror">Horror</button>
+        <button class="genre-btn" data-genre="Action">Action</button>
+        <button class="genre-btn" data-genre="Thriller">Thriller</button>
+        <button class="genre-btn" data-genre="Western">Western</button>
+        <button class="genre-btn" data-genre="Comedy">Comedy</button>
+        <button class="genre-btn" data-genre="Drama">Drama</button>
+        <button class="genre-btn" data-genre="Fantasy">Fantasy</button>
+        <button class="genre-btn" data-genre="Adventure">Adventure</button>
+        <button class="genre-btn" data-genre="Science fiction">Science Fiction</button>
+        <button class="genre-btn" data-genre="Romance">Romance</button>
+        <button class="genre-btn" data-genre="Mystery">Mystery</button>
+        <button class="genre-btn" data-genre="History">History</button>
+    </div>
+    <main>
+        <div id="movies-container" class="movies-grid">
+            <!-- Movies will be loaded here -->
+        </div>
+        <div class="load-more-container">
+            <button id="load-more-btn">Load More</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Movstream V2. Powered by TMDB API.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

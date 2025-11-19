@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch TV Show - Movstream V2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="index.html" style="color: #e50914; text-decoration: none;">Movstream V2</a></h1>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for movies...">
+            <button id="search-btn">Search</button>
+        </div>
+    </header>
+    <main>
+        <div id="movie-details">
+            <!-- TV details will be loaded here -->
+        </div>
+        <div class="episode-section">
+            <h2>Select Episode</h2>
+            <select id="season-select">
+                <option value="">Select Season</option>
+            </select>
+            <select id="episode-select">
+                <option value="">Select Episode</option>
+            </select>
+        </div>
+        <div class="streaming-section">
+            <h2>Select your preferred streaming source</h2>
+            <div id="sources-list">
+                <!-- Sources will be loaded here -->
+            </div>
+        </div>
+        <div class="embed-section">
+            <div id="video-embed">
+                <!-- Embedded video will be loaded here -->
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Movstream V2. Powered by TMDB API.</p>
+    </footer>
+    <script src="watch-tv.js"></script>
+</body>
+
+</html>
